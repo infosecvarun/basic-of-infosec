@@ -1,0 +1,7 @@
+**Authentication** is the act of proving that we are who we say we are.Authentication comes down to three things:
+- Something you know : login ID and password
+- Something you have : smart card or soft token
+- Something you are : fingerprint or other biometrics
+
+**Authorization** is the granting users appropriate access to resources - such as file shares,databases,applications and mailboxes - once they have authenticated themselves.In short,the concept of authorization is simply one of proving you have permission to do something.
+
