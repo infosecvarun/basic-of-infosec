@@ -1,7 +1,46 @@
+**Governance is the process by which governments are selected,held accountable,monitored and replaced.Corporate governance involves a set of relationships among the organization's management,board,shareholders and stakeholders.
+
 **Authentication** is the act of proving that we are who we say we are.Authentication comes down to three things:
 - Something you know : login ID and password
 - Something you have : smart card or soft token
 - Something you are : fingerprint or other biometrics
 
 **Authorization** is the granting users appropriate access to resources - such as file shares,databases,applications and mailboxes - once they have authenticated themselves.In short,the concept of authorization is simply one of proving you have permission to do something.
+
+There are two key elements regarding authorization and those are need to know and least privilege.
+
+An effective security strategy requires at a minimum five key elements:
+- policies
+- procedures
+- authentication
+- authorization
+- recovery plan
+
+An effective security function requires a well administrated security and privacy policy meaning that not only do we have written word but that we check it from time to time to make sure it continues to meet goals and objectives of an organisation and that it can be marked through this post development life cycle.Security strategy must become part of the bussiness and System development life cycle(SDLC).
+
+An effective information security strategy requires four types of controls:
+- Preventive
+- Detective
+- Containment
+- Recovery
+
+Bussiness Continuity Plan (BCP) - Provides procedures for sustaining essential bussiness operations while recovering from a significant disruption
+
+Bussiness Recovery (Resumption) Plan - Provides procedures for recovering busssiness operations immediately following a disaster.
+
+Crisis Communication Plan(CCP) - Provide procedures for disseminating status reports to personnel and the public
+
+Continuity of Operations Plan(COOP) - Provide procedures and capabilities to sustain an organisation essential,strategic functions at an alternative site for upto 30 days.
+
+Cyber Incident Response Plan (CIRP) - Provide strategies to detect,respond to, and limit consequences of maicious cyber incident.
+
+Disaster Recovery Plan (DRP) - Provides detailed procedures to facilitate recovery of capabilities at an alternative sites.
+
+Emergency Response Plan (ERP) - Provide coordinated procedures for minimizing loss of life or injury and protecting property damage in response to a physical threat.
+
+The Economic Espionage Act of 1996 - The Economic Espionage (EEA) of 1966 for the first time makes trade secret theft a federal crime, subject to penalities including fines, forefeiture and imprisonment.The act reenforces the rules governing trade secrets in order to seek relief under the EEA.
+
+Sarbanes Oxley (SOX) - Two important sections of the act are:
+Section 302 (Disclosure Controls and Procedures or DC&P) that requires quarterly certification of financial statements by CEO and CFO.
+Section 404  (Internal Control Attest),requires annual affirmation of management's responsibility for internal controls over financial reporting.Management must attest to effectiveness based on an evaluation and Auditor must attest and report on management's evaluation
 
