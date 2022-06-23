@@ -5,6 +5,13 @@
 - Something you have : smart card or soft token
 - Something you are : fingerprint or other biometrics
 
+Multifactor Authentication
+MFA is simply combination of two or more types of authentication.MFA methods greatly enhance security by making it difficult for an attacker to obtain all the correct materials for authentication.
+
+### Identity Management
+Determining a user's identity requires an authentication process.
+Identity Management is the comprehensive 
+
 **Authorization** is the granting users appropriate access to resources - such as file shares,databases,applications and mailboxes - once they have authenticated themselves.In short,the concept of authorization is simply one of proving you have permission to do something.
 
 There are two key elements regarding authorization and those are need to know and least privilege.
@@ -44,3 +51,21 @@ Sarbanes Oxley (SOX) - Two important sections of the act are:
 Section 302 (Disclosure Controls and Procedures or DC&P) that requires quarterly certification of financial statements by CEO and CFO.
 Section 404  (Internal Control Attest),requires annual affirmation of management's responsibility for internal controls over financial reporting.Management must attest to effectiveness based on an evaluation and Auditor must attest and report on management's evaluation
 
+**Confidentiality** is the concept of preventing the disclosure of information to unauthorized parties.Keeping secrets is the core concept of confidentiality. The identification of authorized parties makes the attainment of confidentiality dependent upon whether the data is at rest, in transit or in use.Access controls are typically perferred for data in use and at rest.
+
+### Implementing Confidentiality
+Confidentiality is the protection of imformation from observation by unauthorized parties.This is done primarily through the use of encryption to make the data unreadable.
+
+**Encryption** is a process that requires an algorithm and a key, and those who possess the correct keys can access the data.Encryption acts by scrambling the data in a manner that hides the true data values from observation.
+For cryptography to be successful, it must be properly implemented.Use only approved cryptographic libraries and functions.Never create our own implementations.Always protect the key, and never store it in code or a file where it can be stolen.
+
+
+**Integrity** refers to protecting the data from unauthorized alteration.Unauthorized alteration is a more fine grained control than simply simply authorizing access.Users can authorized to view information but not alter it.
+
+### Implementing Integrity
+Protecting integrity can be done through the use of access control mechanisms.Individual specific levels of access with respect to read, write and delete can be defined.Applying controls is just a piece of integrity puzzle.
+If there is a requirement to verify the integrity of a data element throughout its lifecycle, the cryptographic function of hashing can be used.If two digest values match then the data is unchanged.
+The design phase is where these decisions need to be made so that the coding phase can properly implement the desired behaviour.
+
+**Availability** is the access to systems by authorized personnel.Availability is concerned with two issues: ensuring systems are available for authorized users when they require those systems and denying access to unauthorized users at other times.
+The criticality of data and its use in the system are critical factors in determining a system availability.The challenge in the system defenition and design is to determine the correct level of availability for the data elements of the system.
